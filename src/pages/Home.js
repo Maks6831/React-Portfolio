@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
@@ -16,17 +17,17 @@ const Home = () => {
         </defs>
       </svg>
     </div>
-    <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56" style={{paddingtop: '0px'}}>
+    <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56" style={{paddingtop: '0px !important'}}>
         
       <div className="text-center content-center">
         <div className="content-center flex justify-center">
         <img src={require("../images/profile-pic.jpeg")} className="rounded-full"/>
         </div>
         <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Hello, <br></br> I am Ali</h1>
-        <p className="mt-6 text-lg leading-8 text-gray-600">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
+        <p className="mt-6 text-lg leading-8 text-gray-600">I am freelance Front-end Web Developer based in London</p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
-          <a href="#" className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
+          <Link to='/contact' className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Contact me</Link>
+          <Link to='/projects' className="text-sm font-semibold leading-6 text-gray-900">Project Showcase<span aria-hidden="true">→</span></Link>
         </div>
       </div>
     </div>
