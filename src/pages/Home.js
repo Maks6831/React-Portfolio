@@ -21,7 +21,7 @@ const Home = () => {
         
       <div className="text-center content-center">
         <div className="content-center flex justify-center">
-        <img src={require("../images/profile-pic.jpeg")} className="rounded-full"/>
+        <img src={"/images/profile-pic.jpeg"} className="rounded-full"/>
         </div>
         <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Hello, <br></br> I am Ali</h1>
         <p className="mt-6 text-lg leading-8 text-gray-600">I am freelance Front-end Web Developer based in London</p>
