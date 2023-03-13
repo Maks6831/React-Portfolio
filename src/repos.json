@@ -5,7 +5,9 @@
         "image": "/images/Get_Ready-Landing_Page.png",
         "description": "Front end webpage that gathers information about a location for a user to help prepare for their travel.",
         "date": "7th February 2023",
-        "link": "https://raw.githubusercontent.com/maks6831/travel-infoguide/"
+        "readmelink":"https://raw.githubusercontent.com/maks6831/travel-infoguide/main/README.md",
+        "link": "https://github.com/maks6831/travel-infoguide/",
+        "param": "Get_ready"
     },
     {
         "id": 2,
@@ -13,7 +15,9 @@
         "image": "/images/team profile generator.png",
         "description": "The team profile generator is a NodeJs program which acquires team information from the end user using a series of prompts on the command line interface and creates a html file which displays team member information (email, employee Id etc.).",
         "date": "3rd March 2023",
-        "link": "https://github.com/Maks6831/team-profile-generator/"
+        "readmelink":"https://raw.githubusercontent.com/maks6831/team-profile-generator/main/README.md",
+        "link": "https://github.com/Maks6831/team-profile-generator/",
+        "param": "team_profile_generator"
     },
     {
         "id": 3,
@@ -21,7 +25,9 @@
         "image": "/images/readmepic.png",
         "date": "24th February 2023",
         "description": "The Read Me Generator is a node js program which takes inputs from the end user to create a professional README.md file that they can use for their own individual or commercial projects.",
-        "link": "https://github.com/Maks6831/quiz-website/"
+        "readmelink":"https://raw.githubusercontent.com/maks6831/readme-generator-/main/README.md",
+        "link": "https://github.com/Maks6831/readme-generator-",
+        "param": "readme.md_generator"
     },
     {
         "id": 4,
@@ -29,7 +35,9 @@
         "image": "/images/quiz-website.png",
         "date": "20th January 2023",
         "description": "A simple quiz made using Javascript designed to test your general knowledge about Javascript!",
-        "link": "https://github.com/Maks6831/quiz-website/"
+        "readmelink":"https://raw.githubusercontent.com/maks6831/quiz-website/main/README.md",
+        "link": "https://github.com/Maks6831/quiz-website/",
+        "param":"programming_quiz_app"
     },
     {
         "id": 5,
@@ -37,7 +45,9 @@
         "image": "/images/weather_dashboard.png",
         "date": "5th February 2023",
         "description":"Weather dashboard which is able to take any city name and return the current weather as well as a five day forecast.",
-        "link": "https://github.com/Maks6831/travel-weather-info/"
+        "readmelink":"https://raw.githubusercontent.com/maks6831/travel-weather-info/main/README.md",
+        "link": "https://github.com/Maks6831/travel-weather-info/",
+        "param": "weather_dashboard"
     },
     {
         "id": 6,
@@ -45,7 +55,9 @@
         "image": "/images/bootstrap_portfolio.png",
         "date": "5th February 2023",
         "description": "Portfolio made using Bootstrap. Contains Bootstrap cards, navbar, jumbotron etc.",
-        "link": "https://github.com/Maks6831/travel-weather-info/"
+        "readmelink":"https://raw.githubusercontent.com/maks6831/Bootstrap-Portfolio/main/README.md",
+        "link": "https://github.com/Maks6831/Bootstrap-Portfolio/",
+        "param": "bootstrap_portfolio"
     }
     
 ]
