@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "name": "Get Ready",
+        "image": "../images/Get_Ready-Landing_Page.png",
+        "description": "Front end webpage that gathers information about a location for a user to help prepare for their travel.",
+        "date": "7th February 2023",
+        "link": "https://raw.githubusercontent.com/maks6831/travel-infoguide/"
+    },
+    {
+        "id": 2,
+        "name": "Team Profile Generator",
+        "image": "../images/team profile generator.png",
+        "date": "3rd March 2023",
+        "link": "https://github.com/Maks6831/team-profile-generator/"
+    },
+    {
+        "id": 3,
+        "name": "README.md Generator",
+        "image": "../images/team profile generator.png",
+        "date": "24th February 2023",
+        "link": "https://github.com/Maks6831/quiz-website/"
+    },
+    {
+        "id": 4,
+        "name": "Programming Quiz App",
+        "image": "../images/quiz-website.png",
+        "date": "20th January 2023",
+        "link": "https://github.com/Maks6831/quiz-website/"
+    },
+    {
+        "id": 5,
+        "name": "Weather Dashboard",
+        "image": "../images/weather_dashboard.png",
+        "date": "5th February 2023",
+        "link": "https://github.com/Maks6831/travel-weather-info/"
+    },
+    {
+        "id": 6,
+        "name": "Bootstrap Portfolio",
+        "image": "../images/bootstrap_portfolio.png",
+        "date": "5th February 2023",
+        "link": "https://github.com/Maks6831/travel-weather-info/"
+    }
+    
+]
