@@ -15,10 +15,10 @@ const App = () => {
       <div>
         <Navbar />
         <Routes>
-          <Route exact path='React-Portfolio/' element={<Home />}/>
-          <Route exact path='React-Portfolio/projects' element={<Projects/>} />
-          <Route exact path='React-Portfolio/projects/:projectname' element={<Readme />}/>
-          <Route exact  path='React-Portfolio/contact' element={<Contact />} />
+          <Route exact path='/' element={<Home />}/>
+          <Route exact path='/projects' element={<Projects/>} />
+          <Route exact path='/projects/:projectname' element={<Readme />}/>
+          <Route exact  path='/contact' element={<Contact />} />
         </Routes>
       </div>
 
