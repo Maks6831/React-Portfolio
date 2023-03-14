@@ -11,14 +11,14 @@ import Contact from './pages/Contact';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div>
         <Navbar />
         <Routes>
-          <Route exact path='React_Portfolio/' element={<Home />}/>
-          <Route exact path='/projects' element={<Projects/>} />
-          <Route exact path='/projects/:projectname' element={<Readme />}/>
-          <Route exact  path='/contact' element={<Contact />} />
+          <Route path='/' element={<Home />}/>
+          <Route path='/projects' element={<Projects/>} />
+          <Route path='/projects/:projectname' element={<Readme />}/>
+          <Route  path='/contact' element={<Contact />} />
         </Routes>
       </div>
 
