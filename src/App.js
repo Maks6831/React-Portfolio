@@ -11,11 +11,11 @@ import Contact from './pages/Contact';
 
 const App = () => {
   return (
-    <Router basename="/React-Portfolio">
+    <Router>
       <div>
         <Navbar />
         <Routes>
-          <Route exact path='/' element={<Home />}/>
+          <Route exact path='React_Portfolio/' element={<Home />}/>
           <Route exact path='/projects' element={<Projects/>} />
           <Route exact path='/projects/:projectname' element={<Readme />}/>
           <Route exact  path='/contact' element={<Contact />} />
