@@ -11,7 +11,7 @@ import Contact from './pages/Contact';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/React-Portfolio">
       <div>
         <Navbar />
         <Routes>
