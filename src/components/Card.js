@@ -10,7 +10,7 @@ const Card = (props) => {
         <div class="p-4 sm:w-1/2 lg:w-1/3">
             <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <img class="lg:h-72 md:h-48 w-full object-cover object-center"
-                    src={props.image} alt="screenshot of project webpage"/>
+                    src={process.env.PUBLIC_URL + props.image} alt="screenshot of project webpage"/>
                 <div class="p-6 hover:bg-indigo-700 hover:text-white transition duration-300 ease-in">
                     <h2 class="text-base font-medium text-indigo-300 mb-1">{props.date}</h2>
                     <h1 class="text-2xl font-semibold mb-3">{props.name}</h1>

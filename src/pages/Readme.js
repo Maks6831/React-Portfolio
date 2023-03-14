@@ -6,6 +6,9 @@ import Markdown from "markdown-to-jsx";
 import './Readme.css';
 
 export const Readme = (props) => {
+    const Readmeh1 = ({ children, ...props }) => (
+        <h1 {...props}>{children}</h1>
+    );
     const [readmeData, setreadmeData] = useState('');
     const { projectname } = useParams();
     const repository = repoData.filter((repo)=>( (repo.param === projectname)))
@@ -21,9 +24,23 @@ export const Readme = (props) => {
             padding: '10px',
             left: '20px'}}>github: <a href={repository[0].link}>Click Here</a></div>
         <div className="border">
-            <Markdown>
-                {readmeData}
-            </Markdown>
+        <Markdown
+        options={{
+            overrides: {
+                h1: {
+                    component: Readmeh1,
+                    props: {
+                        className: 'readme-h1',
+                    },
+                },
+            },
+        }}
+    >
+        {readmeData}
+
+    </Markdown>
+
+        
         </div>
     </div>
     
