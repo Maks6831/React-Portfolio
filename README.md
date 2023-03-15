@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# React Portfolio <!-- omit in toc -->
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) <br>
+The following is a portfolio made using React and Tailwind CSS. The project Showcase page displays 6 github repositories which are created dynamically using JSON data. If the user clicks on the read more they are moved to a page where the readme for the github repostory is rendered by fetching the md file from github and displaying using the Markdown to JSX package. The user can then interact with any links on the md file including links to the deployed application or simply click on the github link to see the full respository in github. 
+## Table of Contents <!-- omit in toc -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Installation
+Deployed Application: <a href="https://maks6831.github.io/React-Portfolio/">click here</a>
+## Usage 
+Simply use the navbar to navigate between pages.
+There is a home section which contains a link to the contact me page.
+<br></br>
+The project Showcase page displays projects displayed in card format (rendered dynamically)
+<br></br>
+When the user click on read more they are move to a page which displays the md file for that particular repository (rendered dynamically) with a link to the github repo/
+<br></br>
+The contact page contains links to github, linkedin, an email link and also a link to the view my resume. there is also a contact form
+<br></br>
+## License
+Copyright &copy 2023 Muhammad Ali Khan. Licensed under the MIT license;
+MIT
+## Contributing 
+Muhammad Ali Khan
+## Tests
+No test have been written thus far, however for later iterations of this projects testing will be used to reduce bugs. if you have any ideas please email me (email below).
+## Questions 
+If you have any queries please feel free to contact me : ma.khan6971@gmail.com <br>
+Github: <a href="https://github.com/Maks6831">click here</a>
