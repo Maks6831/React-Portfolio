@@ -15,7 +15,7 @@ const Footer = () => {
                     <a href ="mailto: ma.khan6971@gmail.com"class="mr-4 hover:underline md:mr-6 ">Send Email</a>
                 </li>
                 <li>
-                    <a href="#" class="mr-4 hover:underline md:mr-6">Linkedin</a>
+                    <a href="https://www.linkedin.com/in/muhammad-khan-464b80203" class="mr-4 hover:underline md:mr-6">Linkedin</a>
                 </li>
                 <li>
                     <a href="https://github.com/Maks6831" class="mr-4 hover:underline md:mr-6 ">Github</a>
