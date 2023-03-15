@@ -69,15 +69,34 @@ const Navbar  = () => {
   {/* Mobile menu, show/hide based on menu state. */}
   <div className="sm:hidden" id="mobile-menu">
     <div className="space-y-1 px-2 pt-2 pb-3">
+    <NavLink
+              to="/"
+              end
+              className={({ isActive }) =>
+                isActive ? "bg-gray-900 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white"
+              }
+            >
+              Home
+            </NavLink>
+            <NavLink
+              to="/projects"
+              className={({ isActive }) =>
+                isActive ? "bg-gray-900 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white"
+              }
+            >
+              Projects
+            </NavLink>
+            <NavLink
+              to="/contact"
+              className={({ isActive }) =>
+                isActive ? "bg-gray-900 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white"
+              }
+            >
+              Contact
+            </NavLink>
+    
       {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
-     
-      <a href="#" className="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Dashboard</a>
 
-      <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Team</a>
-
-      <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Projects</a>
-
-      <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Calendar</a>
     </div>
   </div>
 </nav>
