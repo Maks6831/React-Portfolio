@@ -10,7 +10,7 @@ const Projects = () => {
 
 
     return (
-        <div>
+        <div style={{padding: "10px"}}>
             <h1 className="mb-4 text-3xl font-extrabold text-center md:text-5xl lg:text-6xl p-10">Projects</h1>
             <div>
             <section className="flex flex-wrap -m-4">
