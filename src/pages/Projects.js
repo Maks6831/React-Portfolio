@@ -5,6 +5,7 @@ import Card from "../components/Card.js";
 
 
 const Projects = () => {
+    {/*maps through the json data and creates cards(project component) which are then displayed on the projects page*/}
     
     
 
