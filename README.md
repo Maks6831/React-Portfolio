@@ -13,15 +13,26 @@ The following is a portfolio made using React and Tailwind CSS. The project Show
 ## Installation
 Deployed Application: <a href="https://maks6831.github.io/React-Portfolio/">click here</a>
 ## Usage 
+
+
+
+
 Simply use the navbar to navigate between pages.
 There is a home section which contains a link to the contact me page.
 <br></br>
+![homepage](https://user-images.githubusercontent.com/118021969/225347156-6f0c9902-3da6-48f0-8280-042f3e6964fc.png)
+<br></br>
 The project Showcase page displays projects displayed in card format (rendered dynamically)
+<br></br>
+![projectpage](https://user-images.githubusercontent.com/118021969/225347196-36272a47-36a8-498a-b54d-95b63ac69fdf.png)
 <br></br>
 When the user click on read more they are move to a page which displays the md file for that particular repository (rendered dynamically) with a link to the github repo/
 <br></br>
+![readmepage](https://user-images.githubusercontent.com/118021969/225347227-719441bc-af93-44f3-9b8d-df886fc6845c.png)
+<br></br>
 The contact page contains links to github, linkedin, an email link and also a link to the view my resume. there is also a contact form
 <br></br>
+![contactpage](https://user-images.githubusercontent.com/118021969/225347241-44ec3a4d-0f6a-47b5-a476-4d379e434828.png)
 ## License
 Copyright &copy 2023 Muhammad Ali Khan. Licensed under the MIT license;
 MIT
