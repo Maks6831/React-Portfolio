@@ -14,12 +14,12 @@ const App = () => {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <div>
-        <Header/>
+        <Header/> {/* header contains the Navbar */}
         <Routes>
-          <Route path='/' element={<Home />}/>
+          <Route path='/' element={<Home />}/> {/*Home contains personal statement and links to contact and projects*/}
           <Route path='/projects' element={<Projects/>} />
-          <Route path='/projects/:projectname' element={<Readme />}/>
-          <Route  path='/contact' element={<Contact />} />
+          <Route path='/projects/:projectname' element={<Readme />}/> {/*Readme page is rendered depending on the user selection(when the reader click read more)*/}
+          <Route  path='/contact' element={<Contact />} /> {/*contact page*/}
         </Routes>
         <Footer/>
       </div>

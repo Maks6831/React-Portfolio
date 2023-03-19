@@ -4,8 +4,12 @@ import repoData from "../repos.json";
 import { useState } from "react";
 import Markdown from "markdown-to-jsx";
 import './Readme.css';
+{/*The readme is acquired from github using a fetch call. the data is then is then converted to html thought the 
+Markdown-to-jsx package and displayed to the page.
+*/}
 
 export const Readme = (props) => {
+    {/*The following functions add css class to the readme elements. the classes are located in readme.css*/}
     const Readmeh1 = ({ children, ...props }) => (
         <h1 {...props}>{children}</h1>
     );
@@ -25,7 +29,9 @@ export const Readme = (props) => {
 
 
     const [readmeData, setreadmeData] = useState('');
-    const { projectname } = useParams();
+    {/*Set url to project name */}
+    const { projectname } = useParams(); 
+    {/* finds respository from jason data and uses link to fetch readme data */}
     const repository = repoData.filter((repo)=>( (repo.param === projectname)))
     console.log(repository);
     console.log(repository[0].readmelink);
@@ -39,6 +45,7 @@ export const Readme = (props) => {
             padding: '10px',
             left: '20px'}}>github: <a href={repository[0].link} className="readme-a">Click Here</a></div>
         <div className="border">
+            {/* the markdown converts readme text into jsx the options allows adding classes to html element */}
         <Markdown
         options={{
             overrides: {
