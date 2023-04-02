@@ -1,5 +1,14 @@
 [
     {
+        "id": 7,
+        "name": "ByteBazaar",
+        "image": "/images/byteimage.png",
+        "description": "Front end webpage that gathers information about a location for a user to help prepare for their travel.",
+        "date": "31st March 2023",
+        "readmelink":"https://raw.githubusercontent.com/maks6831/react-programming-ecommerce/main/README.md",
+        "link": "https://github.com/maks6831/react-programming-ecommerce/",
+        "param": "Byte_Bazaar"
+    },{
         "id": 1,
         "name": "Get Ready",
         "image": "/images/Get_Ready-Landing_Page.png",
